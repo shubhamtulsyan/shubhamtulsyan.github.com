@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>tambola</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h3>Tambola Generator</h3><br>
+    <label>No. of players:</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="50"><br><br>
+    <button type="button" onclick="genNameRow()">Go</button><br><br>
+    <div id="playersName"></div><br><br>
+    <div id="ticketGen">
+        <button type="button" id="GenTicket" onclick="genTicket()">Generate Ticket</button>
+    </div>
+    <div id="ticket"></div>
+</body>
+<script src="app.js"></script>
+
+</html>
